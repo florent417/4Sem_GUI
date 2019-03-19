@@ -25,9 +25,11 @@ namespace L16_HTML_And_CSS
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) =>
+            app.UseStaticFiles();
+            app.UseSpa(spa =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                spa.Options.SourcePath = "/index.html";
+
             });
         }
     }
