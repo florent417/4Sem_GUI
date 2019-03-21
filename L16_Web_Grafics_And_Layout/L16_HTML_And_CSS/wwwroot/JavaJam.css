@@ -1,0 +1,41 @@
+﻿body{
+    background-image: url(/Pictures/background.gif);
+}
+
+#wrapper{
+    margin: auto;
+    width: 80%;
+    background-color: #ffffcc;
+}
+
+#header {
+    width: 100%;
+}
+
+#nav {
+    text-align: center;
+    margin: 10px;
+}
+
+#siteName{
+    background-color: #ccaa66;
+    align-self: center;
+}
+
+#footer {
+    text-align: center;
+    background-color: #ccaa66;
+    font-size: 0.6em;
+}
+
+#info {
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+dl {
+    font-family: monospace;
+    width: 80%;
+    margin-right: auto;
+    margin-left: 10px;
+}
