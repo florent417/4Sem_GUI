@@ -26,11 +26,13 @@
     text-align: center;
     background-color: #ccaa66;
     font-size: 0.6em;
+    clear: left;
 }
 
 #info {
     font-size: 0.9em;
     margin-left: 10px;
+    clear: left;
 }
 
 dl {
@@ -39,3 +41,29 @@ dl {
     margin-right: auto;
     margin-left: 10px;
 }
+
+#events {
+    position: relative;
+    left: 100px;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+#eventSingers {
+    float: left;
+}
+
+#month {
+    clear: left;
+    background-color: #ccaa66;
+    font-size: 20px;
+}
+
+#content {
+    width: 90%;
+    margin-right: auto;
+    margin-left: 25px;
+}
+
+
